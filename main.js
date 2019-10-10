@@ -23,4 +23,7 @@ document.querySelector("#answer5").innerHTML = `${result}`
 
 var sell = items.filter(item =>item.who_made === ('i_did'))
 .map(item => `${item.who_made}`) 
-document.querySelector("#answer6").innerHTML = `${sell} were made by there sellers`
+{
+   sell.length
+}
+document.querySelector("#answer6").innerHTML = `${sell.length} were made by there sellers`
